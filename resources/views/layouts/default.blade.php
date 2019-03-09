@@ -10,19 +10,16 @@
     @include('includes.header')
 </header>
 
-    <main role="main">
+<main role="main">
 
         @yield('content')
 
 
-    <footer class="container-fluid bg-dark text-white text-justify">
-        <div class="container">
+    <footer class="row">
             @include('includes.footer')
-        </div>
     </footer>
-    </main>
 
-@include('includes.footer')
+    </main>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
