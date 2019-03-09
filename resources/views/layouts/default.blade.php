@@ -1,26 +1,23 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     @include('includes.head')
 </head>
-<body>
-<div class="container">
 
-    <header class="row">
+<body>
+    <header>
         @include('includes.header')
     </header>
 
-    <div id="main" class="row">
+    <main role="main">
 
         @yield('content')
 
-    </div>
-
-    <footer class="row">
+        <footer class="row">
         @include('includes.footer')
     </footer>
 
-</div>
+</main>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -31,5 +28,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
 </body>
 </html>
